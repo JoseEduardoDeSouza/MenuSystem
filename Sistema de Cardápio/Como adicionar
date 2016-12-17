@@ -1,0 +1,31 @@
+http://192.168.1.103/adicionar?lanche=X-SALADA-BACON_2&bebida=Coca-Cola1L&adicional=22-porcao!batatafrita_G_2!mandioca-G_2$02-lanche!X-SALADA-BACON!milho_1&mesa=4
+
+
+
+
+####################################################################
+PADRÕES PARA CADA ELEMENTO
+
+LANCHES:
+
+1ª:Nome do lanche com separação da seguinte forma(X-SALADA-BACON)
+2ª:Separação por Anderline para a quantidade(X-SALADA-BACON_2)
+3ª: Se for mais de um tipo de lanche ocorre a separação por $ ex(X-SALADA-BACON_2$X-BACON_5)
+
+BEBIDAS:
+
+1ª Nome da bebida-ex:(Coca-Cola)
+2ª Separado por um hifén a quantidade de lts ou ml do refri(Coca-Cola-1L) ou (Coca-Cola-460ml)
+3ª Quantidade (Coca-Cola-1L_2)
+
+ADICIONAL:
+
+Se for porção fica da seguinte forma + o nome da porção + tamanho: (mesa-porcao!batatafrita-G_2!mandioca-G_2)
+Se for adicional no lanche segue: (mesa-lanche-adicional_qntd) ex(02-lanche!X-SALADA-BACON!milho_1)
+Se alem da porção tiver algo no lanche ou mais outro tipo de porção fica da seguinte forma com separação por "$" (mesa-porcao-batatafrita_G_1$mesa-lanche-X-SALADA-BACON-milho-1)...
+
+MESA:
+
+Sempre numero com dois digitos ex: (02)(21)(11)(09)
+
+
